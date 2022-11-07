@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    overflow: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: #1F2937;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 100px;
+}
+
+.left-links {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right-links {
+    font-size: small;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.header-content {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    padding: 80px 100px;
+    gap: 60px
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+
+.greybox {
+    display: flex;
+    background: gray;
+    color: white;
+    height: 250px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sign-up {
+    background: #3882F6;
+    color: white;
+    border-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin: 0 auto 0 0;
+    align-self: flex-start;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    
+}
+
+.body-content {
+    text-align: center;
+    padding: 50px 200px;
+
+}
+
+
+.h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    padding: 100px 200px;
+    flex-direction: column;
+}
+
+p2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+p3 {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.bottom-sign-up {
+    display: flex;
+    background: #3882F6;
+    justify-content: space-between;
+    color: white;
+    margin: 100px;
+    height: 90px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+p4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up2 {
+    background: #3882F6;
+    color: white;
+    border-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+
+}
+
+.footer {
+    background: #1F2937;
+    color: white;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    flex-shrink: 0;
+}
